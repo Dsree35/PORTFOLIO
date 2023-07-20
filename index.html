@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desiree's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- nav -->
+<header>
+    <div class="logo">
+        <img src="images/logo1.png" alt="logo">
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contactme">Contact Me</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!-- home -->
+<section class="home" id="home">
+        <h3>Hello World!</h3>
+        <h1>I'm <span>Desiree Ann Valdepena</span>.</h1>
+        <p>An IT Enthusiast.</p>
+</section>
+
+<!-- about me -->
+<section class="aboutme" id="aboutme">
+    <h1 class="heading"><span>About</span> Me </h1>
+    <div class="row">
+        <div class="profile">
+            <img src="images/profile2.jpg" alt="profile">
+        </div>
+
+        <div class="info">
+            <h2>Ola!</h2> <br> 
+            <h3>Welcome to my portfolio! As a passionate student web developer, <br> 
+                 I strive to create stunning and user-friendly simple websites that combine cutting-edge technology with elegant design. 
+                 Browse more to see <br> my potential to witness the fusion of creativity and functionality, <br>
+                 and feel free to reach out for collaborations or opportunities to bring your ideas to life! <br>
+          
+            </h3>
+        </div>
+    </div>
+</section>
+
+<!-- CV -->
+<section class="resume" id="resume">
+    <h1 class="heading">My <span>Resume</span></h1>
+    <div class="row">
+        <img src="images/resume.png" alt="resume">
+    </div>
+
+    <a href="resume/Valdepeña, Desiree Ann _CV.pdf" target="_blank"><button class="btn">Download CV<i class="fas fa-download"></i></button></a>
+</section>
+
+<!-- SKills -->
+<section class="skills" id="skills">
+    <h1 class="heading">My <span>Skills</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-desktop"></i>
+            <span>Web Development and Database Mangement</span>
+            <p> -Familiar with HTML, CSS, and JavaScript for building static web pages and basic interactivity. <br>
+             -Experience in working with databases, including SQL for data querying and management.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-user"></i>
+            <span>Microsoft office Suite</span>
+            <p>-Proficient in using Word, Excel, and PowerPoint for various academic and project-related tasks</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-keyboard"></i>
+            <span>Cybersecurity Awareness</span>
+            <p>-Awareness of common cybersecurity threats and best practices for online safety</p>
+        </div>
+    </div>
+</section>
+
+<!-- ContactME -->
+<section class="contactme" id="contactme">
+    <h1 class="heading"><span>Contact</span> Me</h1>
+    <div class="row">
+        <div class="content">
+            <h3 class="title">Contact Info</h3>
+            <div class="info">
+                <h3><i class="fas fa-envelope"></i> desifajardo24@gmail.com </h3>
+                <h3><i class="fas fa-phone"></i> +639386109732</h3>
+                <h3><i class="fas fa-map-marker-alt"></i> Santa Maria, Bulacan </h3>
+                
+                <div class="link">
+                    <a href="https://www.linkedin.com/in/jan-deinielle-del-rosario-40b55b272/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Dsree35" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <form action="">
+            <input type="text" placeholder="Name" class="box">
+            <input type="email" placeholder="Email" class="box">
+            <input type="text" placeholder="Subject" class="box">
+            <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="Message"></textarea>
+            <button type="submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
+        </form>
+    </div>
+</section>
+
+<!-- SmoothScroll-->
+<a href="#home" class="top">
+    <img src="images/scroll-top-img.svg" alt="">
+</a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
